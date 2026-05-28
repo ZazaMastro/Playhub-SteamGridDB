@@ -6,6 +6,8 @@ Easily browse and manage Steam artwork from SteamGridDB or your local files from
 
 <img src="docs/capsule.png" width="33.33%"><img src="docs/manage.png" width="33.33%"><img src="docs/filters.png" width="33.33%">
 
+<div align="left">
+
 ## Playhub version features
 To use all the Playhub exclusive features you will need a SteamGridDB key required at the top page of the plugin.
 - Download all the missing artworks.
@@ -75,7 +77,3 @@ https://crowdin.com/project/decky-steamgriddb
 | **日本語** | Nes, Hogman |
 | **正體中文** | mingyc |
 | **简体中文** | zhzy0077, XHXIAIEIN, simon3000 |
-
-## Completion Chart
-[![Completion Chart](https://badges.awesome-crowdin.com/translation-14343274-548275.png)](https://badges.awesome-crowdin.com/translation-14343274-548275.png)
-[Full size](https://badges.awesome-crowdin.com/translation-14343274-548275.png)

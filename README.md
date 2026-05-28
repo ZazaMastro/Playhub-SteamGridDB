@@ -15,7 +15,7 @@ To use all the Playhub exclusive features you will need a SteamGridDB API key.
 - Download all 920x430 missing banners.
 - Download all 3840x1240 missing heroes (if not found it will download a 1920x620 hero).
 - Download all missing logos.
-- - Restore original Steam artwork, it will delete all the custom SteamGridDB artworks downloaded and let Steam automatically restore the default store ones for all your games (non-Steam games will have the default steam empty cover, banner, hero and no logo after that, you will need to set them again after this process).
+- Delete SteamGridDB artworks, it will delete all the custom SteamGridDB artworks downloaded and let Steam automatically restore the default ones for all your games (non-Steam games will have the default steam empty cover, banner, hero and no logo after this process, you can then start from scratch).
 - ZazaMastro fix, download [ZazaMastro](https://www.steamgriddb.com/profile/76561198128354791/heroes) 3840x1240 heroes with embedded logos for all supported games to have the Playhub Art Hero experience and automatically reduce the logo to the minimum size in order to hide it but not delete it (works great with TrailerHero and Art Hero saves you a lot of time).
 
 Here's a preview of ZazaMastro fix used with ArtHero CSSLoader theme. Plus if you want [**here**](https://www.mediafire.com/file/qml1pw9wve47xir/themes.zip/file) you can download the last ZazaMastro theme pack.

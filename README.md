@@ -15,8 +15,13 @@ To use all the Playhub exclusive features you will need a SteamGridDB key requir
 - Download all 920x430 missing banners.
 - Download all 3840x1240 missing heroes (if not found it will download a 1920x620 hero).
 - Download all missing logos.
-- ZazaMastro fix, download ZazaMastro 3840x1240 heroes with embedded logos for all supported games to have the Playhub Art Hero experience and automatically reduce the logo to the minimum size in order to hide it but not delete it (works great with TrailerHero and saves you a lot of time).
-- Restore original Steam artwork, it will delete all the custom SteamGridDB artworks downloaded and let Steam automatically restore the default store ones for all your games (non-Steam games will have the default steam empty cover, banner, hero and no logo after that, you will need to set them again after this process).
+- - Restore original Steam artwork, it will delete all the custom SteamGridDB artworks downloaded and let Steam automatically restore the default store ones for all your games (non-Steam games will have the default steam empty cover, banner, hero and no logo after that, you will need to set them again after this process).
+- ZazaMastro fix, download [ZazaMastro](https://www.steamgriddb.com/profile/76561198128354791/heroes) 3840x1240 heroes with embedded logos for all supported games to have the Playhub Art Hero experience and automatically reduce the logo to the minimum size in order to hide it but not delete it (works great with TrailerHero and Art Hero saves you a lot of time).
+
+Here's a preview of ZazaMastro fix used with ArtHero CSSLoader theme. Plus if you want [**here**](https://www.mediafire.com/file/qml1pw9wve47xir/themes.zip/file) you can download the last ZazaMastro theme pack.
+
+<<img alt="immagine" src="https://github.com/user-attachments/assets/1c61de38-9a81-4256-88a2-ea137c47a98f" width="49%"><img alt="immagine" src="https://github.com/user-attachments/assets/7751b1a5-8c64-4450-b37d-d101d9bbfe68" width="49%">
+
 
 ## Features
 - Browse assets from SteamGridDB for the selected game.

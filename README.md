@@ -1,27 +1,14 @@
 <div align="center">
-<img width="640" height="400" alt="Playhub-steamgriddb" src="https://github.com/user-attachments/assets/8add3b31-960d-4a19-9b0e-f8f1ea4290c0" />
+<img src="thumb.png">
 
+[![Crowdin](https://badges.crowdin.net/decky-steamgriddb/localized.svg)](https://crowdin.com/project/decky-steamgriddb) [![Discord](https://img.shields.io/discord/488621078302949377?color=5865F2\&label=discord)](https://discord.gg/bnSVJrz) [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-informational)](LICENSE) ![Decky Loader](https://img.shields.io/badge/dynamic/json?url=https://plugins.deckbrew.xyz/plugins?query=SteamGridDB&query=$[:1].downloads&suffix=%20installs&label=decky&color=3ea6a3)
+</div>
+
+<h1 align="center">SteamGridDB plugin for Decky Loader</h1>
 
 Easily browse and manage Steam artwork from SteamGridDB or your local files from within gaming mode.
 
 <img src="docs/capsule.png" width="33.33%"><img src="docs/manage.png" width="33.33%"><img src="docs/filters.png" width="33.33%">
-
-<div align="left">
-
-## Playhub version features
-To use all the Playhub exclusive features you will need a SteamGridDB API key.
-- Download all the missing artworks.
-- Download all 600x900 missing covers.
-- Download all 920x430 missing banners.
-- Download all 3840x1240 missing heroes (if not found it will download a 1920x620 hero).
-- Download all missing logos.
-- Delete SteamGridDB artworks, it will delete all the custom SteamGridDB artworks downloaded and let Steam automatically restore the default ones for all your games (non-Steam games will have the default steam empty cover, banner, hero and no logo after this process, you can then start from scratch).
-- ZazaMastro fix, download [ZazaMastro](https://www.steamgriddb.com/profile/76561198128354791/heroes) 3840x1240 heroes with embedded logos for all supported games to have the Playhub Art Hero experience and automatically reduce the logo to the minimum size in order to hide it but not delete it (works great with TrailerHero and Art Hero saves you a lot of time).
-
-Here's a preview of ZazaMastro fix used with ArtHero CSSLoader theme. Plus if you want [**here**](https://www.mediafire.com/file/qml1pw9wve47xir/themes.zip/file) you can download the last ZazaMastro theme pack.
-
-<<img alt="immagine" src="https://github.com/user-attachments/assets/1c61de38-9a81-4256-88a2-ea137c47a98f" width="49%"><img alt="immagine" src="https://github.com/user-attachments/assets/7751b1a5-8c64-4450-b37d-d101d9bbfe68" width="49%">
-
 
 ## Features
 - Browse assets from SteamGridDB for the selected game.
@@ -82,3 +69,7 @@ https://crowdin.com/project/decky-steamgriddb
 | **日本語** | Nes, Hogman |
 | **正體中文** | mingyc |
 | **简体中文** | zhzy0077, XHXIAIEIN, simon3000 |
+
+## Completion Chart
+[![Completion Chart](https://badges.awesome-crowdin.com/translation-14343274-548275.png)](https://badges.awesome-crowdin.com/translation-14343274-548275.png)
+[Full size](https://badges.awesome-crowdin.com/translation-14343274-548275.png)

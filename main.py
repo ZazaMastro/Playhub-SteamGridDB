@@ -995,9 +995,8 @@ def _target_path_for_asset(grid_dir, appid, target_kind, url):
     return grid_dir / name
 
 
-def _sgdb_request(path):
+def _sgdb_request_with_key(path, api_key):
     url = f'{SGDB_API_BASE}{path}'
-    api_key = _active_sgdb_api_key()
     req = Request(
         url,
         headers={
@@ -1017,7 +1016,7 @@ def _sgdb_request(path):
             body = ''
         hint = ''
         if exc.code in (401, 403):
-            hint = ' API key/auth failed; try adding a personal SteamGridDB API key in Bulk Artwork Tools.'
+            hint = ' API key/auth failed; try adding a personal SteamGridDB API key in Playhub Features.'
         raise Exception(f'SGDB HTTP {exc.code} for {path}.{hint} {body}'.strip())
     except URLError as exc:
         raise Exception(f'SGDB network error for {path}: {exc}')
@@ -1030,6 +1029,10 @@ def _sgdb_request(path):
         errors = payload.get('errors') or ['SGDB API request failed']
         raise Exception(', '.join(map(str, errors)))
     return payload.get('data')
+
+
+def _sgdb_request(path):
+    return _sgdb_request_with_key(path, _active_sgdb_api_key())
 
 
 def _first_sgdb_game_id(appid, game_names):
@@ -2163,6 +2166,25 @@ class Plugin:
     async def set_bulk_sgdb_api_key(self, value=''):
         self.settings.setSetting('bulk_sgdb_api_key', str(value or '').strip())
         return True
+
+    async def validate_bulk_sgdb_api_key(self, value=''):
+        api_key = str(value or '').strip()
+        if not api_key:
+            return {
+                'ok': False,
+                'message': 'SteamGridDB API key is empty.',
+            }
+        try:
+            _sgdb_request_with_key('/search/autocomplete/Portal', api_key)
+            return {
+                'ok': True,
+                'message': 'SteamGridDB API key is valid.',
+            }
+        except Exception as exc:
+            return {
+                'ok': False,
+                'message': str(exc),
+            }
 
 
     async def start_bulk_artwork_job(self, command_name=''):

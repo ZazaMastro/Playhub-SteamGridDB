@@ -1,6 +1,6 @@
 {
   "name": "decky-steamgriddb",
-  "version": "1.7.1",
+  "version": "1.7.1-b6bcdd0",
   "description": "Decky plugin to manage Steam artwork from within gaming mode.",
   "type": "module",
   "scripts": {

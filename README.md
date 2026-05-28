@@ -9,7 +9,7 @@ Easily browse and manage Steam artwork from SteamGridDB or your local files from
 <div align="left">
 
 ## Playhub version features
-To use all the Playhub exclusive features you will need a SteamGridDB key required at the top page of the plugin.
+To use all the Playhub exclusive features you will need a SteamGridDB API key.
 - Download all the missing artworks.
 - Download all 600x900 missing covers.
 - Download all 920x430 missing banners.
